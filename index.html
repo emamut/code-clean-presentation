@@ -7,7 +7,7 @@
         <title>Codigo Limpio - emamut</title>
 
         <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/theme/night.css">
 
         <!-- Theme used for syntax highlighting of code -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -29,8 +29,8 @@
                     <p>o dejemos la basura de lado</p>
                 </section>
 
-                <section>
-                    <h2>Que es?</h2>
+                <section data-background-color="#0A0A0A">
+                    <h2>El Codigo Limpio debe ser...</h2>
 
                     <ul>
                         <li>Fácil de leer, expresivo y sencillo</li>
@@ -41,7 +41,53 @@
                         <li class="fragment fade-up">Realiza abstracciones de elementos similares</li>
                     </ul>
 
-                    <p class="fragment fade-up">La regla del Boy Scout <strong>“Hay que dejar el código mejor de cómo lo encontraste”.</strong></p>
+                </section>
+
+                <section data-background-color="#20212A">
+                    <h2>Regla de los Boy Scout</h2>
+
+                    <p class="fragment fade-up"><strong>“Siempre deja el lugar de acampamento más limpio que como lo encontraste”.</strong></p>
+                    <img class="fragment fade-up" src="img/sp-broom.gif">
+                </section>
+
+                <section>
+                    <section data-background-color="#0A0A0A">
+                        <h2>Los Nombres y la Identación</h2>
+                        <pre><code class="php5">
+                            class impCalsimp {
+                            public function sumVal($n1,$n2)
+                            {
+                            return $n1+n2;
+                            }
+                            }
+                        </code></pre>
+                        <p>Ejemplo en PHP</p>
+                    </section>
+
+                    <section data-background-color="#595F73">
+                        <h2>Los Nombres y la Identación</h2>
+                        <pre><code class="php5">
+                            class implementar_calculadora_simple
+                            {
+                                public function sumar_valores($n1, $n2)
+                                {
+                                    return $n1 + n2;
+                                }
+                            }
+                        </code></pre>
+                        <p>Ejemplo en PHP</p>
+                    </section>
+                </section>
+                <section>
+                    <section data-background-color="#20212A">
+                        <h2>Funciones</h2>
+                        <ul>
+                            <li class="fragment fade-up">Deben ser cortas</li>
+                            <li class="fragment fade-up">Hacer una única cosa y mantenerse dentro del mismo nivel de abstracción</li>
+                            <li class="fragment fade-up">Reducir al mínimo el número de argumentos. Maximo 3 u objeto</li>
+                            <li class="fragment fade-up">Pero lo principal es eliminar toda la duplicidad (Refactorización)</li>
+                        </ul>
+                    </section>
                 </section>
             </div>
         </div>
