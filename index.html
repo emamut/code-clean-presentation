@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>reveal.js</title>
+        <title>Codigo Limpio - emamut</title>
 
         <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/theme/night.css">
 
         <!-- Theme used for syntax highlighting of code -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -29,8 +29,8 @@
                     <p>o dejemos la basura de lado</p>
                 </section>
 
-                <section>
-                    <h2>Que es?</h2>
+                <section data-background-color="#0A0A0A">
+                    <h2>El Codigo Limpio debe ser...</h2>
 
                     <ul>
                         <li>Fácil de leer, expresivo y sencillo</li>
@@ -41,7 +41,72 @@
                         <li class="fragment fade-up">Realiza abstracciones de elementos similares</li>
                     </ul>
 
-                    <p class="fragment fade-up">La regla del Boy Scout <strong>“Hay que dejar el código mejor de cómo lo encontraste”.</strong></p>
+                </section>
+
+                <section data-background-color="#20212A">
+                    <h2>Regla de los Boy Scout</h2>
+
+                    <p class="fragment fade-up"><strong>“Siempre deja el lugar de acampamento más limpio que como lo encontraste”.</strong></p>
+                    <img class="fragment fade-up" src="img/sp-broom.gif">
+                </section>
+
+                <section>
+                    <section data-background-color="#0A0A0A">
+                        <h2>Los Nombres y la Identación</h2>
+                        <img src="img/1.png">
+                    </section>
+
+                    <section data-background-color="#595F73">
+                        <h2>Los Nombres y la Identación</h2>
+                        <img src="img/2.png">
+                    </section>
+                </section>
+                <section data-background-color="#20212A">
+                    <h2>Funciones</h2>
+                    <ul>
+                        <li class="fragment fade-up">Deben ser cortas</li>
+                        <li class="fragment fade-up">Hacer una única cosa y mantenerse dentro del mismo nivel de abstracción</li>
+                        <li class="fragment fade-up">Reducir al mínimo el número de argumentos. Maximo 3 u objeto</li>
+                        <li class="fragment fade-up">Pero lo principal es eliminar toda la duplicidad (Refactorización)</li>
+                    </ul>
+                </section>
+                <section data-background-color="#20212A">
+                    <h2>Comentarios</h2>
+                    <p>La necesidad de comentarios para aclarar algo es síntoma de que hay código mal escrito que debería ser rediseñado. Es preferible expresarse mediante el propio código.</p>
+                    <h5 class="fragment fade-up">Razones para utilizar Comentarios</h5>
+                    <ul>
+                        <li class="fragment fade-up">Aspectos legales del código</li>
+                        <li class="fragment fade-up">Advertir consecuencias</li>
+                        <li class="fragment fade-up">TODO</li>
+                        <li class="fragment fade-up">Remarcar la importancia de algo</li>
+                    </ul>
+                </section>
+                <section data-background-color="#20212A">
+                    <h2>Formateo o Identacion</h2>
+                    <p class="fragment fade-up">El formateo afecta directamente a la legibilidad del código. El código se lee de arriba abajo y de izquierda a derecha. Los espacios verticales y horizontales permiten separar ideas y conceptos distintos.</p>
+                    <p class="fragment fade-up">Se debe mantener un estilo uniforme, y para ello se debe consensuar con todo el equipo las reglas de formateo. Las reglas elegidas no son tan importantes como el hecho de que todo el mundo se atenga a ellas.</p>
+                </section>
+                <section data-background-color="#20212A">
+                    <h2>Test Unitarios</h2>
+                    <p class="fragment fade-up">Un test unitario es una pieza de código que comprueba el resultado de otro código. Funcionan tomando un objeto en un estado determinado y actúando con él (por ejemplo llamando a un método o una función) para comprobar que el valor obtenido se corresponde con el esperado. Algo del tipo:</p>
+                    <p class="fragment fade-up"><strong>“Si el resultado de la función ‘foo’ es igual a 5, todo está correcto”</strong></p>
+                </section>
+                <section>
+                    <img src="img/3.jpg">
+                </section>
+                <section>
+                    <h2>Fuente</h2>
+                    <p><a href="http://tratandodeentenderlo.blogspot.com/2011/01/clean-code.html">http://tratandodeentenderlo.blogspot.com/2011/01/clean-code.html</a></p>
+                </section>
+                <section>
+                    <blockquote><p>"Fórmate tú en vez de esperar a que te formen y modelen."</p>
+                    <footer>— Spencer, Herbert</footer></blockquote>
+
+                    <blockquote><p>"La vida debe ser una continua educación."</p>
+                    <footer>— Gustave Flaubert</footer></blockquote>
+
+                    <img src="img/thanks.gif" class="fragment fade-up">
+                    <p class="fragment fade-up">Twitter: @e_mamut / Github: emamut</p>
                 </section>
             </div>
         </div>
